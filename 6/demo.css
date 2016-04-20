@@ -1,0 +1,25 @@
+h1 {
+    font-family: "Microsoft Yahei";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p {
+    color: red;
+    text-indent: 2em;
+}
+
+p.green {
+    color: green;
+}
+
+#demo {
+    color: blue;
+}
+
+div p.green {
+    color: black;
+}
+
+
+/*ffgfgdfsgsdg*/
