@@ -1,83 +1,103 @@
 <!DOCTYPE html>
 <html lang="zh">
-
 <head>
-    <title>报纸布局综合练习</title>
-    <meta charset='utf-8'>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>模拟报纸排版</title>
 </head>
-
 <body>
-    <div class="main">
-        <div class="head clearfix">
-            <p>ife.baidu.com</p>
-            <p>2016.03</p>
+	<div class="main">
+        <div id="header">
+            <div class="ife">
+                <span>ife.baidu.com</span>
+            </div>
+            <div class="date"><span>2016.03</span></div>
         </div>
-        <div class="focus clearfix">
-            <div class="focus-img"></div>
-            <div class="focus-num clearfix">
-                <h2>About </h2>
-                <h2>Technologe</h2>
-                <p class="desc">About technologe about technologe about technologe about technologe</p>
-                <p class="num">700</p>
-                <p class="an-num">3.2</p>
-                <div>
-                    <p class="css">css</p>
-                    <p class="last-desc">csscsscsscssscsss</p>
+        <div id="container">
+            <div class=" focus">
+                <div class="image">
+                    <div class="left"></div>
+                    <div class="right"></div>
                 </div>
-            </div>
-        </div>
-        <div class="intro clearfix">
-            <div>
-                <h2>What</h2>
-                <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
-            </div>
-            <div>
-                <h2>When</h2>
-                <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
-            </div>
-            <div>
-                <h2>How</h2>
-                <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
-            </div>
-        </div>
-        <div class="feature clearfix">
-            <div class="left">
-                <h2><span>THE</span> TECHNOLOGE OF FRONT</h2>
-                <h2>前端技术领域</h2>
-                <div>
-                    <p>前端前端技术领域前端技术领域前端技术领域前端技术领域前端技术术领域前端技术领域前端前端技术领域前端技术前端技术术<img src="img/computer.png" alt="计算机图片"> 领域前端技术领域前端前端技术领域前端技术前端域
-                    </p>
-                    <p>术领域前端技术领域前端前端技术领域前端技术领域前端前端技术领域前端技术领域前端技术领域前端技术领域前端前端技术领域前端技术领域前端前端技术领域前端技术
-                    </p>
-                    <p>领域前端技术领域前端技术领域前端技术领域前端技术领域前端技术领域前端技术领域前端前端技术领域前端技术领域技术领域前端技术领域前端技术领域前端技术领域
+                <div class="text">
+                    <p class="p1">About</p>
+                    <p class="p2">Technologe</p>
+                    <p class="p3">About technologe about techologe about technologe</p>
+                    <p class="p4">700</p>
+                    <p class="p5">
+                        <span class="big">3.2</span>
+                        <span class="mid">css</span>
+                        <span class="sm">cssssccsccscssc</span>
                     </p>
                 </div>
             </div>
-            <div class="right">
-                <div class="name1"></div>
-                <div class="name2 clearfix">
-                    <ul>
-                        <li>前端前端前端前端前端..............................<span>前端</span></li>
-                        <li>前端前端前端前端前端前端...................<span>前端前端</span></li>
-                        <li>前端前端前端前端前端..............................<span>前端</span></li>
-                    </ul>
-                    <div class="decoration">
-                        <div class="num0">0</div>
-                        <div class="number-title">
-                            <h3>one two <br> three four five</h3>
-                            <p>hello world hello world hello world hello world</p>
+            <div class="intro">
+                <div class="what">
+                    <span>What</span>
+                    <p>前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前</p>
+                </div>
+                <div class="when">
+                    <span>When</span>
+                    <p>前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前</p>
+                </div>
+                <div class="how">
+                    <span class="h">How</span>
+                    <p class="top">前端前端前端前端前端前端前端前端前端前端前端前端</p>
+                    <p class="bottom">What--------&nbsp;<span>40%</span></p>
+                    <p class="bottom">What--------&nbsp;<span>30%</span></p>
+                    <p class="bottom">What--------&nbsp;<span>30%</span></p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="info">
+                    <div class="title">
+                        <p><span class="the">THE</span>&nbsp;&nbsp;&nbsp;<span class="text">TECHNOLOGE OF FRONT</span></p>
+                        <p class="last">前端技术领域</p>
+                    </div>
+                    <div class="para">
+                        <p><span>前</span>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前<img src="img/pic3.png" alt="计算机">端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前</p>
+                        <p>
+                            前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端
+                        </p>
+                        <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="image">
+                        <div class="back">
+                        </div>
+                        <div class="front">
+                            <span class="span1">前端技术</span>
+                            <span class="span2">前端技术前端技术</span>
                         </div>
                     </div>
-                    <div class="hello">
-                        <p>hello world hello world hello world hello world</p>
+                    <div class="part">
+                    	<div class="top">
+                    		<p>▲ 前端前端前端前端前端前端 ................... <span>前端</span></p>
+                    		<p>▲ 前端前端前端前端 ......................... <span>前端前端</span></p>
+                    		<p>▲ 前端前端前端前端前端前端前端 ............... <span>前端</span></p>
+                    	</div>
+                    	<div class="bottom">
+                    		<div class="left">
+                    			<p class="zero">0</p>
+                    			<div>
+                    				<p class="bg">ONE TWO</p>
+                    				<p class="bg">THERE FOUR FIVE</p>
+                    				<p class="sm">hello word hello world hello world</p>
+                    			</div>
+                    		</div>
+                    		<div class="right">
+                    			<span class="before">“</span>
+                    			<p>world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world</p><span class="after">”</span>
+                    		</div>
+                    	</div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="foot"></div>
+        <div id="footer">
+            <span>ife.baidu.com</span>
+        </div>
     </div>
 </body>
-
 </html>
